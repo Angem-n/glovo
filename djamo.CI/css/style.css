@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Varela Round", serif;
+}
+.header{
+    padding: 20px;
+    box-shadow: 0px 2px 5px #dddd;
+    font-size: smaller;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    z-index: 10;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.container img{
+    margin-top: 70px;
+}
+.bleu{
+    background-color: blue;
+    color: white ;
+    border-radius: 40px;
+    padding: 20px 30px ;
+    text-decoration: none;
+    
+}
+.menu li{
+    list-style:none;
+    display:inline-block;
+  
+   
+
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: #dddd;
+    color: blue;
+    border-radius: 5PX;
+}
+
+.bannière{
+    padding-top: 70px;
+
+}
+.title{
+    background: linear-gradient(to right, #ffbc01, #ff90a5);
+    font-size: 70px;
+    background-clip: text;
+    color: transparent;
+
+}
+.indicatif{
+    padding: 5px 10px;
+    border: 1px solid #eeee;
+    border-radius: 4px;
+}
+.telephone{
+    border-radius: 4PX;
+    padding: 5px 10px;
+    width: 160px;
+}
+.ouvrir{
+    border: none;
+    padding: 6px 10px;
+}
+.carte{
+    margin-left:-75PX;
+}
+.demarrer{
+    margin-top: 30px;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    gap: 30px;
+}
+.eclair{
+    width: 33%;
+    display: flex;
+}
+.eclair p{
+    color: #aaaaaa;
+    margin-bottom: 7PX;
+    margin-top: 0px;
+    
+}
+.eclair h2{
+    font-size: 18PX;
+    margin-top: 0PX;
+    
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.taille{
+    font-size: 30px;
+    color: red;
+}
+.pc{
+    padding-top: 60px;
+}
+.appli h1 {
+    background: linear-gradient(to right, #FD3C2D,#0C29FF);
+    font-size: 2.25rem;;
+    background-clip: text;
+    color: transparent;
+  
+}
+.appli{
+    text-align: center;
+}
+.fate{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.services{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+
+}
+.services:hover{
+    background-color: #080808dd;
+    color: rgb(249, 249, 252);
+    border-radius: 5PX;
+}
+.service i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service p {
+    font-size: 14px;
+    color: #666;
+}
+
+.titles{
+    background: linear-gradient(to right, #0C29FF, #ffbc03);
+    font-size: 70px;
+    background-clip: text;
+    color: transparent;
+    border-bottom: 1px solid #e5e7eb;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+    padding: 20px 30px;
+    text-decoration: none;
+ margin-bottom: 40px;
+
+}
+.azerty{
+    margin-bottom: 100px; 
+}
+.js{
+    background:linear-gradient(to right,#FD3C2D,#31B67A);
+    font-size: 60px;
+    background-clip: text;
+    color: transparent;
+    text-align:left;
+    border-bottom: 1px solid #e5e7eb;
+
+}
+.rt{
+    background:linear-gradient(to right,#31B67A,#0C29FF); 
+    font-size: 50px;
+    background-clip: text;
+    color: transparent;
+    text-align:left;
+    border-bottom: 1px solid #e5e7eb;
+
+}
+.ty{
+    background:linear-gradient(to right,#FFBC01,#31B67A);
+    font-size: 50px;
+    background-clip: text;
+    color: transparent;
+    text-align:left;
+    border-bottom: 1px solid #e5e7eb;
+}
